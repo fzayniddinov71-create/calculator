@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro Glass Kalkulyator</title>
+
+  <!-- CSS ulanish -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="glass-card">
+    <h2>🧮 Kalkulyator</h2>
+
+    <input type="number" id="num1" placeholder="1-son">
+    <input type="number" id="num2" placeholder="2-son">
+
+    <div class="buttons">
+      <button onclick="calculate('+')">+</button>
+      <button onclick="calculate('-')">−</button>
+      <button onclick="calculate('*')">×</button>
+      <button onclick="calculate('/')">÷</button>
+    </div>
+
+    <p id="result">Natija: —</p>
+
+    <small>Dasturchi: <b>FARRUX ZAYNIDDINOV</b></small>
+  </div>
+
+  <!-- JavaScript ulanish -->
+  <script src="script.js"></script>
+
+</body>
+</html>
